@@ -87,7 +87,7 @@
               </elementProp>
               <elementProp name="password" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">admin</stringProp>
+                <stringProp name="Argument.value">Milor123</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">password</stringProp>
@@ -132,14 +132,14 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="customername" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">未和</stringProp>
+                <stringProp name="Argument.value">魏晨</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">customername</stringProp>
               </elementProp>
               <elementProp name="customerphone" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">12345678917</stringProp>
+                <stringProp name="Argument.value">13401222916</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">customerphone</stringProp>
@@ -200,78 +200,33 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="search_customer" enabled="true">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="customerphone" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">12345678910</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">customerphone</stringProp>
-              </elementProp>
-              <elementProp name="page" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">1</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">page</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain"></stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/WoniuSales1.4/customer/search</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="search_customer_assert" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1088400214">[{&quot;childsex&quot;:&quot;男&quot;,&quot;creditcloth&quot;:0,&quot;creditkids&quot;:0,&quot;createtime&quot;:&quot;2020-02-25 11:11:04&quot;,&quot;counts&quot;:0,&quot;totals&quot;:null,&quot;userid&quot;:1,&quot;childdate&quot;:&quot;2020-02-25&quot;,&quot;customerphone&quot;:&quot;12345678910&quot;,&quot;customerid&quot;:97,&quot;credittotal&quot;:0,&quot;customername&quot;:&quot;未和&quot;,&quot;updatetime&quot;:&quot;2020-02-25 11:11:04&quot;}]</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
-          </ResponseAssertion>
-          <hashTree/>
-        </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="edit_customer" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="customerid" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">84</stringProp>
+                <stringProp name="Argument.value">1</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">customerid</stringProp>
               </elementProp>
               <elementProp name="customerphone" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">12345678913</stringProp>
+                <stringProp name="Argument.value">186836668866</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">customerphone</stringProp>
               </elementProp>
               <elementProp name="customername" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">yiyi</stringProp>
+                <stringProp name="Argument.value">小明</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">customername</stringProp>
               </elementProp>
               <elementProp name="childsex" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">男</stringProp>
+                <stringProp name="Argument.value">女</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">childsex</stringProp>
@@ -285,14 +240,14 @@
               </elementProp>
               <elementProp name="creditkids" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">0</stringProp>
+                <stringProp name="Argument.value">500</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">creditkids</stringProp>
               </elementProp>
               <elementProp name="creditcloth" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">0</stringProp>
+                <stringProp name="Argument.value">2136</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">creditcloth</stringProp>
@@ -330,7 +285,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="barcode" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">22222222</stringProp>
+                <stringProp name="Argument.value">11111111</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">barcode</stringProp>
@@ -354,45 +309,9 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="scan_barcode_assert" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1268286405">[{&quot;createtime&quot;:&quot;&lt;option value=&apos;60&apos;&gt;尺码:60,剩余:0件&lt;/option&gt;&lt;option value=&apos;50&apos;&gt;尺码:50,剩余:2件&lt;/option&gt;##1.0##68&quot;,&quot;goodsserial&quot;:&quot;M1Q0648B&quot;,&quot;goodsname&quot;:&quot;冰蓝纯棉背心裙&quot;,&quot;barcode&quot;:&quot;22222222&quot;,&quot;unitprice&quot;:139.0}]</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
-          </ResponseAssertion>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="query_customer" enabled="true">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="customerphone" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">12345678910</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">customerphone</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain"></stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/WoniuSales1.4/customer/query</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="query_customer_assert" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="2100899150">[{&quot;childsex&quot;:&quot;男&quot;,&quot;childdate&quot;:&quot;2020-02-25&quot;,&quot;creditcloth&quot;:0,&quot;creditkids&quot;:0,&quot;createtime&quot;:&quot;2020-02-25 11:11:04&quot;,&quot;customerphone&quot;:&quot;12345678910&quot;,&quot;customerid&quot;:97,&quot;credittotal&quot;:0,&quot;customername&quot;:&quot;一&quot;,&quot;updatetime&quot;:&quot;2020-02-25 11:11:04&quot;,&quot;userid&quot;:1}]</stringProp>
+              <stringProp name="980783838">[{&quot;createtime&quot;:&quot;&lt;option value=&apos;40&apos;&gt;尺码:40,剩余:1件&lt;/option&gt;&lt;option value=&apos;30&apos;&gt;尺码:30,剩余:1件&lt;/option&gt;&lt;option value=&apos;20&apos;&gt;尺码:20,剩余:0件&lt;/option&gt;&lt;option value=&apos;10&apos;&gt;尺码:10,剩余:1件&lt;/option&gt;##1.0##68&quot;,&quot;goodsserial&quot;:&quot;M3Q1498B&quot;,&quot;goodsname&quot;:&quot;米乐果后开连衣裙&quot;,&quot;barcode&quot;:&quot;11111111&quot;,&quot;unitprice&quot;:89.0}]</stringProp>
+              <stringProp name="0"></stringProp>
+              <stringProp name="0"></stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
